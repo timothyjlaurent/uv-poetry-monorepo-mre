@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Timothy Laurent"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lib1 = { path = "../lib1/", develop = true }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
